@@ -1,5 +1,6 @@
  html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
  }
  *{
     box-sizing: border-box;
@@ -152,6 +153,7 @@ nav {
       transform: translateX(100%);
       transition: transform 0.5s ease-in;
       z-index: 11;
+   overflow-x:hidden;
   }
   .nav-links a{
     padding: 0px 15px;
